@@ -27,6 +27,3 @@ The program should use the input operation and two numbers to provide the result
   - What happens if the user tries to add `hotdog` to `elephant`?
 - Make your program know when it needs to return an _integer_ versus a _float_.
 - Add support for parentheticals, i.e. `10 / (5 + 5) = 1`.
-
-
-### [Rubric](rubric.md)
