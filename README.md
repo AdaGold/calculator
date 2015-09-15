@@ -1,4 +1,4 @@
-# Project 01: Calculator
+# Calculator Project
 
 Build a calculator command line interface (CLI) that allows a user to perform simple arithmetic.
 
