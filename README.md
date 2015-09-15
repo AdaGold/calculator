@@ -2,7 +2,7 @@
 
 Build a calculator command line interface (CLI) that allows a user to perform simple arithmetic.
 
-## Project Baseline
+## Baseline
 The program should ask the user for an operation (string or numeric symbol) and two numbers.
 
 ## Primary Requirements
