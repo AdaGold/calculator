@@ -10,6 +10,19 @@ The program should use the input operation and two numbers to provide the result
 - The program should have support for these four operations: addition, subtraction, multiplication, and division.
 - The program should accept both the name (`add`) and the symbol (`+`) for each possible operation.
 
+## Test & Verify
+
+To make sure your program works you will need to run your program and ensure:
+*  The program adds numbers with both `add` and `+`
+*  The program subtracts numbers with both `subtract` and `-`
+*  The program adds numbers with both `multiply` and `*`
+*  The program adds numbers with both `divide` and `/`
+*  The program handles divide when attempting to divide by zero.
+*  The program handles erroneous input.  For example the user might enter `clown` when asked to enter a number.
+   *  The program also needs to handle erroneous operators.
+
+
+
 ## Optional Enhancements
 - Print out the formula in addition to the result, i.e. `2 + 2 = 4`
 - Add support for computing exponents (`2^4 = 2 * 2 * 2 * 2 = 16`).
