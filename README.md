@@ -12,6 +12,8 @@ The program should use the input operation and two numbers to provide the result
 
 ## Test & Verify
 
+Before you submit your work it's important to test your program and ensure it's working properly.  Later we will teach you nifty ways to automate this testing, but for now we'll do things the old fashioned way.
+
 To make sure your program works you will need to run your program and ensure:
 *  The program adds numbers with both `add` and `+`
 *  The program subtracts numbers with both `subtract` and `-`
