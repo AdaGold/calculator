@@ -1,6 +1,10 @@
 # Calculator Exercise
 
-Build a calculator command line interface (CLI) that allows a user to perform simple arithmetic.
+## At a Glance
+
+- Build a calculator command line interface (CLI) that allows a user to perform simple arithmetic.
+- Individual, [stage 1](https://github.com/Ada-Developers-Academy/pedagogy/blob/master/rule-of-three.md#stage-1) project
+- Due before class, Wednesday Feb 7
 
 ## Baseline
 The program should ask the user for an operation (string or numeric symbol) and two numbers.
