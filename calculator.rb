@@ -1,4 +1,6 @@
+# This is a calculator program
 
+# Define methods
 
 def add(num_one, num_two)
   return num_one + num_two
