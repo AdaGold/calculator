@@ -24,6 +24,8 @@ end
 
 possible_operations = ["ADD", "SUBTRACT", "DIVIDE", "MULTIPLY", "EXPONENT", "+", "-","/", "*", "^"]
 
+# Get user input for the operation to perform
+# Ask for user input until operation is valid
 puts "Which operation would you like to perform?"
 print "(Add, Subtract, Multiply, Divide, Exponent) "
 operation = gets.chomp.upcase
@@ -32,6 +34,8 @@ operation = gets.chomp.upcase
     operation = gets.chomp.upcase
   end
 
+# Get user input for numbers
+# Ask for input until user enter integer
 puts "Okay, please enter a number."
   num_one = gets.chomp
     while num_one.to_i.to_s != num_one
@@ -40,6 +44,7 @@ puts "Okay, please enter a number."
     end
 
 num_one = num_one.to_i
+
 
 puts "Please enter another number."
 num_two = gets.chomp
@@ -51,6 +56,7 @@ end
 
 num_two = num_two.to_i
 
+# Perform calculations
 if operation == "ADD" || operation == "+"
   sum = add(num_one, num_two)
   puts "#{num_one} + #{num_two} = #{sum}"
