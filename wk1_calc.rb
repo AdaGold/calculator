@@ -4,10 +4,6 @@
 puts "This calculator will perform simple arithmetic on two numbers, using either addition, subtraction, multiplication, or division."
 puts
 
-operation_attempts = 0
-#number1_attempts = 0
-#number2_attempts = 0
-
 print "What is the first number? "
 num_one = gets.chomp.to_f
 
@@ -18,13 +14,11 @@ print "Which operation would you like performed? "
 command = gets.chomp.upcase.to_s
 
 until ["ADD", "+", "SUBTRACT", "-", "MULTIPLY", "*", "DIVIDE", "/"].include?(command)
-  operation_attempts += 1
   puts "You did not enter an available operation. Please try again."
   command = gets.chomp.upcase.to_s
 end
 
 puts command
-puts operation_attempts 
 
 case command
   when "ADD", "+"
