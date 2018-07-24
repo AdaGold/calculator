@@ -6,13 +6,24 @@
 - Individual, [stage 1](https://github.com/Ada-Developers-Academy/pedagogy/blob/master/rule-of-three.md#stage-1) project
 - Due before class, **DATE HERE**
 
+## Learning Goals
+
+- Write Ruby code with statements that practice conditional logic, using `if`, `elsif`, and `else` when appropriate
+- Write Ruby code with statements that practice loops, like `while` and `until` when appropriate
+- Write Ruby code that takes in user input using `gets.chomp`
+- Practice creating, storing, and modifying variables
+
 ## Baseline
-The program should ask the user for an operation (string or numeric symbol) and two numbers.
+You should write your program as a series of statements within a file `calculator.rb`. Anyone with this file should be able to run the command `$ ruby calculator.rb` to run the program. The program should ask the user for an operation (as a string symbol) and two numbers.
 
 ## Primary Requirements
 The program should use the input operation and two numbers to provide the result of applying the operation to the two numbers.
 - The program should have support for these four operations: addition, subtraction, multiplication, and division.
 - The program should accept both the name (`add`) and the symbol (`+`) for each possible operation.
+- The program should handle unexpected user input
+
+Here is an example of what your program could look like. It does not have to look like this:
+![example screenshot of a calculator proram](example.png)
 
 ## Test & Verify
 
