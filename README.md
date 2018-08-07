@@ -12,6 +12,7 @@
 - Write Ruby code with statements that practice loops, like `while` and `until` when appropriate
 - Write Ruby code that takes in user input using `gets.chomp`
 - Practice creating, storing, and modifying variables
+- Practice creating and using methods
 
 ## Baseline
 You should write your program as a series of statements within a file `calculator.rb`. Anyone with this file should be able to run the command `$ ruby calculator.rb` to run the program. The program should ask the user for an operation (as a string symbol) and two numbers.
