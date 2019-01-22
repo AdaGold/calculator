@@ -19,7 +19,7 @@ We will build a calculator command line interface (CLI) that allows any user to 
 
 ## Getting Started
 
-You should write your program as a series of statements within a file `calculator.rb`. Anyone with this file should be able to run the command `$ ruby calculator.rb` to run the program.
+You should write your program as a series of statements within a file `calculator.rb`. Anyone with this file should be able to run the command `$ ruby calculator.rb` to execute the program.
 
 ## Implementation Requirements
 
@@ -40,7 +40,7 @@ The program should use the input operation and two numbers to provide the result
 - You may add other names or symbols to the above operations
 - The program should gracefully handle unexpected user input by doing the following things:
   - check if the input is invalid. What happens if the user input is `nil` (i.e., the user just pressed enter)? What happens if the user tries to `add` `hotdog` to `elephant`? What if the user input is `hotdog` for an operator?
-  - If the input is invalid, output a message to the command line that informs the user that the input was invalid
+  - if the input is invalid, output a message to the command line that informs the user that the input was invalid
   - exit the program
 
 
