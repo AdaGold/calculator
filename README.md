@@ -38,6 +38,7 @@ The program should use the input operation and two numbers to provide the result
   - `multiply` and `*`
   - `divide` and `/`
 - You may add other names or symbols to the above operations
+- There is no requirement to consider handling uppercase versions to the command above: you are required only to handle the lowercase versions of the operations above
 - The program should gracefully handle unexpected user input by doing the following things:
   - check if the input is invalid. What happens if the user input is `nil` (i.e., the user just pressed enter)? What happens if the user tries to `add` `hotdog` to `elephant`? What if the user input is `hotdog` for an operator?
   - if the input is invalid, output a message to the command line that informs the user that the input was invalid
@@ -74,6 +75,7 @@ The following is a list of optionals. Should you be ambitious to continue workin
 - Add support for the modulo operator (`10 % 3 = 1`).
 - Make your program know when it needs to return an _integer_ versus a _float_.
 - Add support for parentheticals, i.e. `10 / (5 + 5) = 1`.
+- Add support for handling all cases (uppercase, capitals) for the operations, so that `ADD` and `add` and `Add` (and other combinations) are handled in the same way
 
 Please note that you will only be graded on the requirements, and not on the optional enhancements.
 
