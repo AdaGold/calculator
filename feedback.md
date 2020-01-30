@@ -1,15 +1,49 @@
 # Calculator
-## What We're Looking For
 
-<!-- The project comprehension questions don't need to have any specific answers; they're mostly reflective -->
+<!-- Instructors: The checkmarks are already there, so just delete them for any line items that aren't met. -->
 
-Feature 	| Feedback
----	      | ---
-Readable code with consistent indentation | 
-Practices using variables appropriately | 
-Practices using conditionals appropriately | 
-If any, practices iteration appropriately | 
-If any, practices using custom methods appropriately | 
-Takes in two numbers and an operator and can perform addition | 
-Takes in two numbers and an operator and can perform subtraction | 
-The program handles divide when attempting to divide by zero |
+## Major Learning Goals/Code Review
+
+<!-- Instructors: Feel free to practice creating specific feedback by referencing a line of code if you'd like. For example, you may say something like "nice custom method in `calculator.rb` line 42." This is optional. -->
+
+| Criteria | yes/no, and optionally any details/lines of code to reference |
+| --- | --- |
+| Correctly uses conditionals (`if`/`else`/`elsif`) | ✔️
+| Correctly uses loops (`while`/`until`) | ✔️
+| Correctly uses `gets.chomp` | ✔️
+| Correctly uses using variables | ✔️
+| Correctly creates and uses custom methods | ✔️
+
+## Functional Requirements
+
+| Functional Requirement | yes/no |
+| --- | --- |
+| User can input two numbers and an operator and perform addition | ✔️
+| User can input in two numbers and an operator and can perform subtraction | ✔️
+| User gets feedback from the CLI when attempting to divide by zero, and the program does not give an error | ✔️
+
+## Overall Feedback
+
+| Overall Feedback | Criteria | yes/no |
+| --- | --- | --- |
+| Green (Meets/Exceeds Standards) | 3+ in Code Review && 2+ in Functional Requirements | ✔️
+| Yellow (Approaches Standards) | 2 in Code Review && 2+ in Functional Requirements | ✔️
+| Red (Not at Standard) | 0,1 in Code Review or 0,1 in Functional Reqs, or assignment is breaking/doesn’t run with less than 5 minutes of debugging | ✔️
+
+<!-- ### Additional Feedback -->
+
+<!-- Instructors, feel free to ignore this section if there's nothing else to add. -->
+
+## Code Style Bonus Awards
+
+<!-- Instructors: Please strike a balance between liberal/stingy with these. These are simply built-in pieces of positive feedback; use this to encourage and push students towards a cleaner code style! -->
+
+Was the code particularly impressive in code style for any of these reasons (or more...?)
+
+| Quality | Yes? |
+| --- | --- |
+| Perfect Indentation | ✅
+| Elegant/Clever | ✅
+| Descriptive/Readable | ✅
+| Concise | ✅
+| Logical/Organized | ✅
