@@ -11,7 +11,7 @@
 | Correctly uses conditionals (`if`/`else`/`elsif`) | ✔️
 | Correctly uses loops (`while`/`until`) | ✔️
 | Correctly uses `gets.chomp` | ✔️
-| Correctly uses using variables | ✔️
+| Correctly uses variables | ✔️
 | Correctly creates and uses custom methods | ✔️
 
 ## Functional Requirements
