@@ -47,6 +47,11 @@ The program should use the input operation and two numbers to provide the result
 
 Here is an example of what your program could look like. It is not required to look exactly like this:
 ![example screenshot of a calculator proram](example.png)
+**NOTE:**
+```
+You will be turning this project in.
+We will go over how to review the project at the time of submission.
+```
 
 ## Testing and Verification Requirement
 
