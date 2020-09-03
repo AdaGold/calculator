@@ -60,8 +60,8 @@ Before project submission, test and verify that your program works as expected w
 To make sure your program works you will need to run your program and check against the following criteria:
 *  The program adds numbers accurately with both `add` and `+`
 *  The program subtracts numbers accurately with both `subtract` and `-`
-*  The program adds numbers accurately with both `multiply` and `*`
-*  The program adds numbers accurately with both `divide` and `/`
+*  The program multiplies numbers accurately with both `multiply` and `*`
+*  The program divides numbers accurately with both `divide` and `/`
 *  The program responds with user-friendly output (instead of an error message) when the user attempts to divide by zero
 *  The program handles erroneous input.  For example the user might enter `clown` when asked to enter a number
     *  The program also needs to handle erroneous operators
